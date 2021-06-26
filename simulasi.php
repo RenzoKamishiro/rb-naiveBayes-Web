@@ -29,7 +29,7 @@ $pendidikan2 = $obj->probPendidikan($a5,0);
 
 //result
 $paT = $obj->hasilTrue($jumTrue,$jumData,$umur,$tinggi,$bb,$kesehatan,$pendidikan);
-$paF = $obj->hasilFalse($jumTrue,$jumData,$umur2,$tinggi2,$bb2,$kesehatan2,$pendidikan2);
+$paF = $obj->hasilFalse($jumFalse,$jumData,$umur2,$tinggi2,$bb2,$kesehatan2,$pendidikan2);
 
 if($a2 == "kt"){
   $a2 = "Kurang Tinggi";
